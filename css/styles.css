@@ -11784,12 +11784,25 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: auto;
 }
 
-@media screen and (max-width: 768px){
-  iframe {
-    width: 80%;
-    height: auto;
-  }
+.wrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  left: 12%;
 }
+
+.wrapper iframe{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 75%;
+  height: 75%;
+}
+
 .about-borders {
   border: 2px solid black;
   padding: 5px;
