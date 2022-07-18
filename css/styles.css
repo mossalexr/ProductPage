@@ -240,7 +240,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #38369f;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3036,8 +3036,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: #38369f;
+  border-color: #2c2a7b;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3475,7 +3475,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #cca000;
+  color: #38369f;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3953,7 +3953,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #cca000;
+  color: #38369f;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11588,7 +11588,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid black;
   border-radius: 100%;
   background-color: #4947ce;
 }
@@ -11782,4 +11782,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   justify-content: center;
   margin: auto;
+}
+
+@media screen and (max-width: 768px){
+  iframe {
+    width: 80%;
+    height: auto;
+  }
+}
+.about-borders {
+  border: 2px solid black;
+  padding: 5px;
 }
