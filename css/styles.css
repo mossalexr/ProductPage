@@ -11807,3 +11807,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   border: 2px solid black;
   padding: 5px;
 }
+
+.about-bg {
+  background-color: rgb(190, 190, 190);
+}
