@@ -11806,8 +11806,15 @@ section#contact form#contactForm :-ms-input-placeholder {
 .about-borders {
   border: 2px solid black;
   padding: 5px;
+  /* width: 32.6%; */
 }
 
 .about-bg {
   background-color: rgb(190, 190, 190);
 }
+
+/* .about-spacing {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+} */
